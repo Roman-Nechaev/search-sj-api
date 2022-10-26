@@ -1,12 +1,10 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-import { getUser } from './API/server-request';
-import imgListTamplate from './test/imgList.hbs';
+
+import imgListTamplate from './template/markup-img-list.hbs';
 import PaxaBayServiseApi from './API/photo-servis-api';
 import LoadMoreBtn from './components/load-more-btn';
 import ScrollBtn from './components/scroll-btn';
-const Handlebars = require('handlebars');
-console.log(Handlebars);
-// Описан в документации
+
 import SimpleLightbox from 'simplelightbox';
 
 // Дополнительный импорт стилей
@@ -14,10 +12,8 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const galleryListRef = document.querySelector('.gallery');
 const searchFormRef = document.querySelector('.search-form');
-const scrollBtnRf = document.querySelector('.scrol-btn');
 const opac = document.querySelector('.opacity-tes');
 
-// scrollBtnRf.classList.add('is-hidden'); // скрыть
 const paxaBayServiseApi = new PaxaBayServiseApi();
 
 const loadMoreBtn = new LoadMoreBtn({
@@ -29,7 +25,7 @@ searchFormRef.addEventListener('submit', sabmitFormOn);
 loadMoreBtn.refs.button.addEventListener('click', onLoadMore);
 
 function onLoadMore(evt) {
-  loadMoreBtn.disable(); //состояние неактивной кнопки
+  loadMoreBtn.disable();
 
   paxaBayServiseApi.fetchImg().then(data => {
     appendImgListTamplate(data);
@@ -37,11 +33,11 @@ function onLoadMore(evt) {
     if (data.hits.length === 0) {
       console.log('А на этом все ');
 
-      loadMoreBtn.hide(); // скрыть кнопку
+      loadMoreBtn.hide();
       Notify.info('Сожалеем, но вы достигли конца результатов поиска.');
     }
 
-    loadMoreBtn.enable(); // состояние активной кнопки
+    loadMoreBtn.enable();
   });
 }
 
@@ -56,19 +52,18 @@ function sabmitFormOn(evt) {
   } else {
     console.log('Поиск не пуст');
     paxaBayServiseApi.query = search;
-    paxaBayServiseApi.resetPage(); // сброс страницы
+    paxaBayServiseApi.resetPage();
 
     paxaBayServiseApi.fetchImg().then(hits => {
-      clearImgListContainer(); // очищает форму перед новым запросом поиска
+      clearImgListContainer();
       appendImgListTamplate(hits);
 
-      loadMoreBtn.enable(); // состояние активной кнопки
+      loadMoreBtn.enable();
       if (hits.total === 0) {
-        loadMoreBtn.hide(); // скрыть кнопку
+        loadMoreBtn.hide();
         return Notify.warning('По Вашему запросу ничего не найдено.');
       } else {
-        loadMoreBtn.show(); // показать кнопку
-        // scrollBtnRf.classList.remove('is-hidden'); // показать
+        loadMoreBtn.show();
 
         Notify.success(`Мы нашли ${hits.total} зображений`);
         console.log(`количество изображений ${hits.total}`);
@@ -90,52 +85,8 @@ function appendImgListTamplate(hits) {
 function clearImgListContainer() {
   galleryListRef.innerHTML = '';
 }
+
 //////////////////////////////////////////
-
-// document.querySelectorAll('a[href^="#"').forEach(link => {
-//   link.addEventListener('click', function (e) {
-//     e.preventDefault();
-
-//     let href = this.getAttribute('href').substring(1);
-
-//     const scrollTarget = document.getElementById(href);
-
-//     const topOffset = document.querySelector('.scrollto').offsetHeight;
-//     // const topOffset = 0; // если не нужен отступ сверху
-//     const elementPosition = scrollTarget.getBoundingClientRect().top;
-//     const offsetPosition = elementPosition - topOffset;
-
-//     window.scrollBy({
-//       top: offsetPosition,
-//       behavior: 'smooth',
-//     });
-//   });
-// });
-// let btn = document.querySelector('.scrol-btn');
-// //
-// function magic() {
-//   if (window.pageYOffset > 20) {
-//     btn.style.opacity = '1';
-//   } else {
-//     btn.style.opacity = '0';
-//   }
-// }
-// function boo(params) {
-//   btn.onclick = function () {
-//     window.scrollTo({
-//       top: searchFormRef,
-//       behavior: 'smooth',
-//     });
-//   };
-// }
-// //
-// boo();
-
-// // When scrolling, we run the function
-// function foo(params) {
-//   window.onscroll = magic;
-// }
-// foo();
 
 const scrollBtn = new ScrollBtn({
   selector: '[data-scrolling]',
