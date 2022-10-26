@@ -1,0 +1,440 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Космический наемник",
+      "author": "Александр Викторович Низаев",
+      "genres": [
+        "Фантастика"
+      ],
+      "rating": 8.38
+    },
+    {
+      "id": 2,
+      "title": "Автомеханик",
+      "author": "Виктория Владимировна Дорофеева",
+      "genres": [
+        "Приключения"
+      ],
+      "rating": 9.51
+    },
+    {
+      "id": 3,
+      "title": "Разработка веб-приложений с помощью PHP и MySQL (5-е издание)",
+      "author": "Люк Веллинг",
+      "genres": [
+        "Компьютерная литература"
+      ],
+      "rating": 7.18
+    },
+    {
+      "id": 4,
+      "title": "Волшебная пыльца",
+      "author": "Валентин Клевно",
+      "genres": [
+        "Детские детективы",
+        "Мистика"
+      ],
+      "rating": 3.46
+    },
+    {
+      "id": 5,
+      "title": "Обновленная книга по JS",
+      "author": "Роман",
+      "genres": [
+        "Любовные романы"
+      ],
+      "rating": 6.48
+    },
+    {
+      "title": "Тестовая книга",
+      "author": "Роман",
+      "genres": [
+        "JS"
+      ],
+      "rating": 10,
+      "id": 6
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 8
+    },
+    {
+      "title": "Обновление книги PATCH",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 9
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Ragnr",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 99,
+      "id": 11
+    },
+    {
+      "title": "Тестовая книга",
+      "author": "Роман",
+      "genres": [
+        "JS"
+      ],
+      "rating": 10,
+      "id": 12
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 13
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 14
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 15
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 16
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 17
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 18
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 19
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 20
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 21
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 22
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 23
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 24
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 25
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 26
+    },
+    {
+      "title": "Тестовая книга HTML",
+      "author": "Роман",
+      "genres": [
+        "HTML"
+      ],
+      "rating": 8,
+      "id": 27
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 28
+    },
+    {
+      "title": "Тестовая книга HTML",
+      "author": "Роман",
+      "genres": [
+        "HTML"
+      ],
+      "rating": 8,
+      "id": 29
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 30
+    },
+    {
+      "title": "Тестовая книга HTML",
+      "author": "Роман",
+      "genres": [
+        "HTML"
+      ],
+      "rating": 8,
+      "id": 31
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 32
+    },
+    {
+      "title": "Тестовая книга HTML",
+      "author": "Роман",
+      "genres": [
+        "HTML"
+      ],
+      "rating": 8,
+      "id": 33
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 34
+    },
+    {
+      "title": "Тестовая книга HTML",
+      "author": "Роман",
+      "genres": [
+        "HTML"
+      ],
+      "rating": 8,
+      "id": 35
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 36
+    },
+    {
+      "title": "Тестовая книга HTML",
+      "author": "Роман",
+      "genres": [
+        "HTML"
+      ],
+      "rating": 8,
+      "id": 37
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 38
+    },
+    {
+      "title": "Тестовая книга HTML",
+      "author": "Роман",
+      "genres": [
+        "HTML"
+      ],
+      "rating": 8,
+      "id": 39
+    },
+    {
+      "title": "Тестовая книга CSS",
+      "author": "Роман",
+      "genres": [
+        "CSS"
+      ],
+      "rating": 9,
+      "id": 40
+    },
+    {
+      "title": "Добовление книги ",
+      "author": "Роман",
+      "genres": [
+        "POST"
+      ],
+      "rating": 9,
+      "id": 41
+    },
+    {
+      "title": "Добовление книги ",
+      "author": "Роман",
+      "genres": [
+        "POST"
+      ],
+      "rating": 9,
+      "id": 42
+    },
+    {
+      "id": 43
+    },
+    {
+      "title": "Добовление книги ",
+      "author": "Роман",
+      "genres": [
+        "POST"
+      ],
+      "rating": 9,
+      "id": 44
+    },
+    {
+      "id": 45
+    },
+    {
+      "title": "Добовление книги ",
+      "author": "Роман",
+      "genres": [
+        "POST"
+      ],
+      "rating": 9,
+      "id": 46
+    },
+    {
+      "id": 47
+    },
+    {
+      "title": "Добовление книги ",
+      "author": "Роман",
+      "genres": [
+        "POST"
+      ],
+      "rating": 9,
+      "id": 48
+    },
+    {
+      "id": 49
+    },
+    {
+      "title": "Добовление книги ",
+      "author": "Роман",
+      "genres": [
+        "POST"
+      ],
+      "rating": 9,
+      "id": 50
+    },
+    {
+      "title": "Добовление книги ",
+      "author": "Роман",
+      "genres": [
+        "POST"
+      ],
+      "rating": 9,
+      "id": 51
+    },
+    {
+      "title": "Добовление книги ",
+      "author": "Роман",
+      "genres": [
+        "POST"
+      ],
+      "rating": 9,
+      "id": 52
+    },
+    {
+      "title": "Добовление книги ",
+      "author": "Роман",
+      "genres": [
+        "POST"
+      ],
+      "rating": 9,
+      "id": 53
+    }
+  ]
+}

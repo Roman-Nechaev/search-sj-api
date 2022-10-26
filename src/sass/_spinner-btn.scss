@@ -1,0 +1,24 @@
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+background: #FFEFBA;
+}
+.btn{
+width: 100%;
+    margin: 40px auto;
+    text-align: center;
+background: #FFEFBA;
+    background-color: aqua;
+}
+.button.is-hidden {
+    display: none;
+}
+
+.button>.spinner.is-hidden {
+    display: none;
+}
+
+.btn-primary{
+
+}
