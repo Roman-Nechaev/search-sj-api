@@ -1,10 +1,11 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { getUser } from './API/server-request';
-import imgListTamplate from './components/imgList.hbs';
+import imgListTamplate from './test/imgList.hbs';
 import PaxaBayServiseApi from './API/photo-servis-api';
 import LoadMoreBtn from './components/load-more-btn';
 import ScrollBtn from './components/scroll-btn';
-
+const Handlebars = require('handlebars');
+console.log(Handlebars);
 // Описан в документации
 import SimpleLightbox from 'simplelightbox';
 
