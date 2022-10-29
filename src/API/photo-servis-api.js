@@ -13,7 +13,7 @@ export default class PaxaBayServiseApi {
         params: {
           key: '25776093-bb4fa85787ae7c355f18a58ee',
           q: this.searchQuery,
-          per_page: 40,
+          per_page: 20,
           page: this.page,
           image_type: 'photo',
           orientation: 'horizontal',
