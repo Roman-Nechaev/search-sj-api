@@ -8,7 +8,7 @@ import ScrollBtn from './components/scroll-btn';
 import SimpleLightbox from 'simplelightbox';
 
 // Дополнительный импорт стилей
-// import 'simplelightbox/dist/simple-lightbox.min.css';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const galleryListRef = document.querySelector('.gallery');
 const searchFormRef = document.querySelector('.search-form');
