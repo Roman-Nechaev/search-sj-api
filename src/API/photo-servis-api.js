@@ -22,7 +22,7 @@ export default class PaxaBayServiseApi {
       });
       this.incrementPage();
       const { data } = response;
-      const { hits } = data;
+      // const { hits } = data;
 
       console.log(data.hits);
       return data;
