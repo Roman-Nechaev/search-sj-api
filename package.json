@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/Roman-Nechaev/mod-dz-11-js.git",
+  "homepage": "https://github.com/Roman-Nechaev/search-sj-api.git",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-project-template/",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Roman-Nechaev/mod-dz-11-js.git"
+    "url": "git+https://github.com/Roman-Nechaev/search-sj-api.git"
   },
   "keywords": [],
   "author": "Roman",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Roman-Nechaev/mod-dz-11-js.git"
+    "url": "https://github.com/Roman-Nechaev/search-sj-api.git"
   },
   "dependencies": {
     "axios": "^0.27.2",
